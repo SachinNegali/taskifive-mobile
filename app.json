@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sarchin.taskifour"
     },
     "web": {
       "bundler": "metro",
@@ -24,6 +25,11 @@
     },
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff9b7dbf-9d2d-4e8b-ba53-fb60f3fdb5d7"
+      }
     }
   }
 }
